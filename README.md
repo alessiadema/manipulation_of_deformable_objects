@@ -53,6 +53,8 @@ This modeling choice offers a good trade-off between:
 
 The entire dynamics model is implemented in **Python using JAX**, enabling **automatic differentiation**, which is crucial for DDP/iLQR algorithms.
 
+![Mass-Spring-Damped Rope Model and Example Trajectory](images/image1.png)
+
 ---
 
 ### Numerical Integration & Time Discretization
@@ -81,7 +83,7 @@ The performance of the approach is evaluated by analyzing the influence of:
 - The penalty parameter μ strongly affects convergence, constraint satisfaction, and stability, requiring careful tuning.
 
 Results show that **fast, dynamic manipulation** is essential to successfully complete the task.
-
+![Analysis](images/image2.png)
 ---
 
 ## ⚠️ Limitations
